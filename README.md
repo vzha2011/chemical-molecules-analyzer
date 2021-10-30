@@ -19,7 +19,7 @@ Built a GUI with wxPython for performing analysis tasks related to chemical mole
 # Data Collection
 
 # Data Visualization
-![random] (https://github.com/vzha2011/chemical-molecules-analyzer/blob/019b0f6cca3f80bcfa7ba0b5828cd3aaef6a7421/Images/Random%20Dataset.png)
+![random] (https://github.com/vzha2011/chemical-molecules-analyzer/blob/e0a57ff80fbe1a2db93004bbb09b2173f518fb3a/Images/rs.png)
 # Models 
 
 
