@@ -19,7 +19,7 @@ Built a GUI with wxPython for performing analysis tasks related to chemical mole
 # Data Collection
 
 # Data Visualization
-
+![random] (Images/Random Dataset.png)
 # Models 
 
 
