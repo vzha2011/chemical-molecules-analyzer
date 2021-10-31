@@ -32,6 +32,7 @@ the attributes of the target feature
 Example:
 ![](Images/rd.png)
 
+![](Images/pc.png)
 
 # Score 
 - Import a datasets with SMILES of chemical molecules
