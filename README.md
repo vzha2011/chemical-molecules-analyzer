@@ -1,5 +1,6 @@
 # chemical-molecules-analyzer
-Built a GUI with wxPython for performing analysis tasks related to chemical molecules.
+This is a GUI built with wxPython for performing analysis tasks related to chemical molecules. 
+This user-friendly interface enables users to generate datasets and obtain results from different models
 # Installation
 - Python 3.8 https://www.python.org/downloads/release/python-380/
 - wxPython https://www.wxpython.org/
@@ -16,11 +17,34 @@ Built a GUI with wxPython for performing analysis tasks related to chemical mole
 - scikit-learn https://github.com/scikit-learn/scikit-learn
 - matplotlib https://github.com/matplotlib/matplotlib
 
-# Data Collection
+# Data 
+- Generate datasets with different features of chemical molecules
+- Visualization of random dataset generated: pie chart, histogram, line plots and scatter plots
+- Clustering: From inertia value vs. number of clusters, users could obtain the optimal number of groups could be formed from the random datasets generated
+- PCA: From pie chart of explained variance ratio, users could see the percent of representative features from the random dataset
+- Neural Network: Make certain feature from the random dataset as target feature. Select different parameters to build a neural network, and classify the chemical molecules with
+the attributes of the target feature. The user could observe accuracy of moldel prediction and different types of mean and squared errors.
+Example:
+# Score 
+- Import a datasets with SMILES of chemical molecules
+- The SMILES of chemical molecules with lowest and highest scores will be displayed
+- The histograms based on different type of scores of chemical molecules such as RA score (Retrosynthetic Accessibility score) will be displayed
+Example:
 
-# Data Visualization
-![random](Images/rs.png)
-# Models 
+# Reaction
+- Enter a chemical reaction
+- Search the chemical molecules that have high structural similarities with the reactants using PubChem, ChEMBL or the dataset imported
+- Run chemical reactions with the resulting chemical molecules
+- The corresponding reaction image will be displayed
+Example:
+
+# Recommender System (collaborative filtering method)
+- Upload two datasets with SMILES of chemical molecules. One is "Users", the other one is "Molecules";
+- The chemical molecules(users) in "Users" dataset will give ratings to the chemical molecules(items) in "Molecules" dataset with the average value of features between users and items. (e.g., the average value of molecular weights between the users and items ) 
+- The top 10 molecules rated by the user that has highest number of similar ratings with other users will be displayed
+- Enter a chemical molecules in SMILES format as "user", and the top 10 items rated by the user that has highest number of similar ratings with this user will be displayed
+Example:
+
 
 
 
