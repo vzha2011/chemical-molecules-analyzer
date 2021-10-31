@@ -46,6 +46,7 @@ Five types of scores:
 - Synthetic Accessibility Score 
 - Quantitative Estimation of Drug-likeness Score
 - SYnthetic Bayesian Accessibility Score
+
 Example:
 ![](Images/score.png)
 
@@ -59,8 +60,8 @@ Example:
 ![](Images/reaction.png)
 
 # Recommender System (collaborative filtering method)
-- Import two datasets with SMILES of chemical molecules. One is "Users", the other one is "Molecules";
-- The chemical molecules(users) in "Users" dataset will give ratings to the chemical molecules(items) in "Molecules" dataset with the average value of features between users and items. (e.g., the average value of molecular weights between the users and items ) 
+- Import two datasets(One is "Users", the other one is "Molecules") with SMILES of chemical molecules.
+- The chemical molecules(users) in "Users" dataset will give ratings to the chemical molecules(items) in "Molecules" dataset with the average value of features between users and items (e.g., the average value of molecular weights between the users and items ) 
 - The top 10 molecules rated by the user that has highest number of similar ratings with other users will be displayed
 - Enter a chemical molecules in SMILES format as "user", and the top 10 items rated by the user that has highest number of similar ratings with this user will be displayed
 
