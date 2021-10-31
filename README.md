@@ -7,7 +7,7 @@ This user-friendly interface enables users to generate datasets and obtain resul
 - ChemML https://github.com/hachmannlab/chemml
 - ChEMBL webresource client https://github.com/chembl/chembl_webresource_client
 - PubChempy https://github.com/mcs07/PubChemPy
-- RAscore https://github.com/reymond-group/RAscore
+- RA score https://github.com/reymond-group/RAscore
 - NP score https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score
 - SA score https://github.com/rdkit/rdkit/tree/master/Contrib/SA_Score
 - QED score https://github.com/UAMCAntwerpen/qed
