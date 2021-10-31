@@ -35,7 +35,7 @@ Example:
 ![](Images/pc.png)
 
 # Score 
-- Import a datasets with SMILES of chemical molecules
+- Import a dataset with SMILES of chemical molecules
 - The scores are converted to difficulty levels from the easiest level to the most difficult level
 - The SMILES of chemical molecules with the easiest level and the most difficult level based on the scores will be displayed
 - The histograms that have the frequency distribution of the chemical molecules with difficulty levels will be displayed
