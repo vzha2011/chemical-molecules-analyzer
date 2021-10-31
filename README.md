@@ -34,6 +34,8 @@ Example:
 
 ![](Images/pc.png)
 
+![](Images/clustering.png)
+
 # Score 
 - Import a dataset with SMILES of chemical molecules
 - The scores are converted to difficulty levels from the easiest level to the most difficult level
