@@ -10,7 +10,8 @@ This user-friendly interface enables users to generate datasets and obtain resul
 - RAscore https://github.com/reymond-group/RAscore
 - NP score https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score
 - SA score https://github.com/rdkit/rdkit/tree/master/Contrib/SA_Score
-- SYBA https://github.com/lich-uct/syba
+- QED score https://github.com/UAMCAntwerpen/qed
+- SYBA score https://github.com/lich-uct/syba
 - RDKit https://github.com/rdkit/rdkit
 - pandas https://github.com/pandas-dev/pandas
 - NumPy https://github.com/numpy/numpy
@@ -22,8 +23,11 @@ This user-friendly interface enables users to generate datasets and obtain resul
 - Visualization of random dataset generated: pie chart, histogram, line plots and scatter plots
 - Clustering: From inertia value vs. number of clusters, users could obtain the optimal number of groups could be formed from the random datasets generated
 - PCA: From pie chart of explained variance ratio, users could see the percent of representative features from the random dataset
-- Neural Network: Make certain feature from the random dataset as target feature. Select different parameters to build a neural network, and classify the chemical molecules with
-the attributes of the target feature. The user could observe accuracy of moldel prediction and different types of mean and squared errors.
+- Neural Network: 
+   - Select certain feature from the random dataset as target feature 
+   - Select different parameters to build a neural network, and classify the chemical molecules with
+the attributes of the target feature 
+   - The user could observe accuracy of moldel prediction and different types of mean and squared errors
 
 Example:
 ![](Images/rd.png)
@@ -31,9 +35,16 @@ Example:
 
 # Score 
 - Import a datasets with SMILES of chemical molecules
-- The SMILES of chemical molecules with lowest and highest scores will be displayed
-- The histograms based on different type of scores of chemical molecules such as RA score (Retrosynthetic Accessibility score) will be displayed
+- The scores are converted to difficulty levels from the easiest level to the most difficult level
+- The SMILES of chemical molecules with the easiest level and the most difficult level based on the scores will be displayed
+- The histograms that have the frequency distribution of the chemical molecules with difficulty levels will be displayed
 
+Five types of scores:
+- Retrosynthetic Accessibility Score
+- Natural Product-likeness Score
+- Synthetic Accessibility Score 
+- Quantitative Estimation of Drug-likeness Score
+- SYnthetic Bayesian Accessibility Score
 Example:
 ![](Images/score.png)
 
